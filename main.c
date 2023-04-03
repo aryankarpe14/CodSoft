@@ -81,8 +81,8 @@ void main()
         break;
     }
     printf("\nDo you want to print again");
-    printf("\n1.Yes\n2.No);
-    scanf("%d");
+    printf("\n1.Yes\n2.No\n");
+    scanf("%d",&x);
     }while(x==1);
     getch();
 }
