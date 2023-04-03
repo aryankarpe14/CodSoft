@@ -2,11 +2,12 @@
 #include <conio.h>
 void main()
 {
-    int i, a, j, m, n, ch;
+    int i, a, j, m, n, ch,x;
     clrscr();
     printf("\nDo You want to Print Patterns:");
     printf("\n1.Yes\n2.No\n");
     scanf("%d", &ch);
+    do{
     switch (ch)
     {
     case 1:
@@ -79,5 +80,9 @@ void main()
         printf("\nExited");
         break;
     }
+    printf("\nDo you want to print again");
+    printf("\n1.Yes\n2.No);
+    scanf("%d");
+    }while(x==1);
     getch();
 }
