@@ -7,9 +7,10 @@ void main()
     printf("\nDo You want to Print Patterns:");
     printf("\n1.Yes\n2.No\n");
     scanf("%d", &ch);
-    do{
+
     switch (ch)
     {
+     do{
     case 1:
         printf("\nEnter the type of Pattern you want to print:");
         printf("\n1.Triangle\n2.Square\n3.Rectangle\n");
@@ -75,14 +76,19 @@ void main()
             printf("\nWrong Choice Entered");
             break;
         }
+         printf("\nDo you want to print again");
+         printf("\n1.Yes\n2.No");
+         scanf("%d",&x);
+         }while(x==1);
+       
         break;
     case 2:
         printf("\nExited");
         break;
     }
-    printf("\nDo you want to print again");
-    printf("\n1.Yes\n2.No\n");
-    scanf("%d",&x);
-    }while(x==1);
+
+
+
+
     getch();
 }
