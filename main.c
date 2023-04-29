@@ -2,7 +2,8 @@
 #include <conio.h>
 void main()
 {
-    int i, a, j, m, n, ch,x;
+    int i, a, j, m, n, ch;
+    char x;
     clrscr();
     printf("\nDo You want to Print Patterns:");
     printf("\n1.Yes\n2.No\n");
@@ -77,9 +78,9 @@ void main()
             break;
         }
          printf("\nDo you want to print again");
-         printf("\n1.Yes\n2.No\n");
-         scanf("%d",&x);
-         }while(x==1);
+         printf("\nY.Yes\nN.No\n");
+         scanf("%s",&x);
+         }while(x=='y'||x=='Y');
        
         break;
     case 2:
