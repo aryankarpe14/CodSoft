@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
 void main()
 {
-    int i, a, j, m, n, ch;
+    int i, ch, a, j, m, n;
     char x;
-    clrscr();
     printf("\nDo You want to Print Patterns:");
     printf("\n1.Yes"
            "\n2.No\n");
@@ -91,5 +89,4 @@ void main()
         printf("\nExited");
         break;
     }
-    getch();
 }                 
